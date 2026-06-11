@@ -176,4 +176,34 @@ background:#7a0019;
 color:white;
 text-align:center;
 padding:20px;
+}@media (max-width:768px){
+
+    .nav-links{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .accordion-btn,
+    .accordion-content{
+        width:95%;
+    }
+
+    .gallery{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .gallery img{
+        width:100%;
+        height:auto;
+    }
+
+    input,
+    select{
+        width:90%;
+    }
+
+    .hero img{
+        width:100%;
+        height:auto;
+    }
 }
